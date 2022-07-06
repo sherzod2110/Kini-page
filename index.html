@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>11-dars</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center alert-info mt-3 rounded-3">Movie</h1>
+    <input class="input form-control" type="search" placeholder="Search Movie...">
+  
+    <ul class="list "></ul>
+  
+    <div  class="text-center mt-3 mb-4 d-flex justify-content-around align-items-center">
+      <button class="prev-btn btn btn-primary" style="width: 200px;">Prev</button>
+      <div class="btns"></div>
+      <button class="next-btn btn btn-primary" style="width: 200px;">Next</button>
+    </div>
+</div>
+
+  <template class="template">
+    <li class="film rounded-3 border-3 border-primary" style="height: 500px;">
+      <img class="film__img rounded-3" src="https://via.placeholder.com/200" alt="" width="260" height="350">
+
+        <h2 class="film__title mt-2 text-success fw-bold" style="font-size: 20px;">Movie Title</h2>
+        <p class="film__year text-info fw-bold">2018</p>
+        <!-- <p class="film__type">Series</p> -->
+    </li>
+  </template>
+
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
